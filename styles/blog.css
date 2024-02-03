@@ -1,0 +1,116 @@
+#running-stat-slider{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.slide-container {
+    width: 100%;
+    height:60vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: rgb(245, 245, 245);
+}
+
+.image-slider{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.slides-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+    border-radius: 4%;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+}
+
+.img{
+    position: relative;
+    width: 224px;
+    height: 280px;
+    border-radius: 4%;
+    transition: 0.5s;
+}
+
+.button {
+    position: absolute;
+    width: 224px;
+    height: 280px;
+    transition: 0.5s;
+}
+
+#slider-span1:target ~ .image-slider #img1,
+#slider-span1:target ~.image-slider #button-1{
+    width:320px;
+    height:400px;
+    background-color: transparent;
+}
+#slider-span2:target ~ .image-slider #img2,
+#slider-span2:target ~.image-slider #button-2{
+    width:320px;
+    height:400px;
+    background-color: transparent;
+}
+#slider-span3:target ~ .image-slider #img3,
+#slider-span3:target ~.image-slider #button-3{
+    width:320px;
+    height:400px;
+    background-color: transparent;
+}
+#slider-span4:target ~ .image-slider #img4,
+#slider-span4:target ~.image-slider #button-4{
+    width:320px;
+    height:400px;
+    background-color: transparent;
+}
+#slider-span5:target ~ .image-slider #img5,
+#slider-span5:target ~.image-slider #button-5{
+    width:320px;
+    height:400px;
+    background-color: transparent;
+}
+#slider-span6:target ~ .image-slider #img6,
+#slider-span6:target ~.image-slider #button-6{
+    width:320px;
+    height:400px;
+    background-color: transparent;
+}
+#slider-span7:target ~ .image-slider #img7,
+#slider-span7:target ~.image-slider #button-7{
+    width:320px;
+    height:400px;
+    background-color: transparent;
+}
+
+#slider-span1:target ~.image-slider{
+    left:48%;
+}
+#slider-span2:target ~.image-slider{
+    left:32%;
+}
+#slider-span3:target ~.image-slider{
+    left:16%;
+}
+#slider-span4:target ~.image-slider{
+    left:0%;
+}
+#slider-span5:target ~.image-slider{
+    left:-16%;
+}
+#slider-span6:target ~.image-slider{
+    left:-32%;
+}
+#slider-span7:target ~.image-slider{
+    left:-48%;
+}
