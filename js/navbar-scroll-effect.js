@@ -1,10 +1,10 @@
-document.addEventListener("DOMContentLoaded", function() {
-    window.addEventListener("scroll", function() {
-      var header = document.querySelector('.header');
-      if (window.scrollY > 56) {
-        header.classList.remove('bg-transparent');
-      } else {
-        header.classList.add('bg-transparent');
-      }
-    });
-  });
+
+  const navEl = document.querySelector('.header');
+
+  window.addEventListener('scroll', () => {
+    if(window.scrollY >= 56) {
+      navEl.classList.add('navbar-scrolled')
+    } else if (window.scrollY < 56) {
+      navEl.classList.remove('navbar-scrolled')
+    }
+  })
