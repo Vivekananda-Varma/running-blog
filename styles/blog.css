@@ -1,3 +1,7 @@
+#hero-img {
+    width: 100%;
+}
+
 #running-stat-slider{
     display: flex;
     align-items: center;
