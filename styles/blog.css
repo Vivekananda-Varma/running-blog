@@ -1,4 +1,19 @@
+@font-face {
+    font-family: 'source-sans-pro-regular';
+    src: url(../fonts/SourceSansPro-Regular.otf);
+}
+
+@font-face {
+    font-family: 'source-sans-pro-light';
+    src: url(../fonts/SourceSansPro-Light.otf);
+}
+
+body {
+    font-family: 'source-sans-pro-regular';
+}
+
 .header {
+    font-family: 'source-sans-pro-light';
     transition: all 0.7s;
 }
 
