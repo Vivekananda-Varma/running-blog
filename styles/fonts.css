@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'charter-regular';
+    src: url("../fonts/charter/Charter\ Regular.otf");
+}
+
+
+@font-face {
+    font-family: 'poppins-bold';
+    src: url('../fonts/poppins/Poppins-Bold.ttf');
+}
+
+main {
+    font-family: 'charter-regular';
+}
+
+
+h1,h2,h3,h4 {
+    font-family: 'poppins-bold';
+}
