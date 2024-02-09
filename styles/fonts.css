@@ -3,10 +3,18 @@
     src: url("../fonts/charter/Charter\ Regular.otf");
 }
 
+@font-face {
+    font-family: 'poppins-light';
+    src: url(../fonts/poppins/Poppins-Light.ttf)
+}
 
 @font-face {
     font-family: 'poppins-bold';
     src: url('../fonts/poppins/Poppins-Bold.ttf');
+}
+
+.header {
+    font-family: 'poppins-light';
 }
 
 main {
@@ -16,4 +24,8 @@ main {
 
 h1,h2,h3,h4 {
     font-family: 'poppins-bold';
+}
+
+#contact-form-container {
+    font-family: 'poppins-light';
 }

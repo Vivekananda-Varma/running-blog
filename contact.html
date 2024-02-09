@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles/blog.css" />
+    <link rel="stylesheet" href="styles/fonts.css">
+
+    <style>
+        #contact-page-bg-img {
+            position: absolute;
+            height: 100%;
+            right: 0;
+            top: 0;
+            z-index: -1;
+        }
+
+        #contact-form {
+            position: relative;
+            margin-top: 30%;
+            margin-left: 32%;
+            padding: 10% 8%;
+            width: 100%;
+            color: #fff;
+            background-color: #000000;
+            border-radius: 15px;
+        }
+
+        #contact-form-heading{
+            margin-bottom: 8%;
+            color: #fff;
+        }
+
+        #first-name, #last-name, #email-address, #message {
+            background-color: rgb(12, 12, 12);
+            color: #ffffff;
+            font-size: 0.9rem;
+            border: none;
+        }
+
+        #first-name::placeholder,
+        #last-name::placeholder,
+        #email-address::placeholder,
+        #message::placeholder {
+            color: rgb(86, 86, 86);
+        }
+
+
+        .btn-outline-secondary{
+            border: solid 2px #7e7e7e;
+        }
+
+        .btn-outline-secondary:hover {
+            background-color: #ffffff;
+            border: none;
+            color: #000000;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header d-flex justify-content-center py-3 fixed-top navbar-scrolled">
+            <ul class="nav nav-pills">
+                <li><a href="" class="nav-link px-3 text-white">Home</a></li>
+                <li><a href="index.html" class="nav-link px-3 text-white">Blogs</a></li>
+                <li><a href="#" class="nav-link px-3 text-white">Newsletter</a></li>
+                <li><a href="about.html" class="nav-link px-3 text-white">About</a></li>
+                <li><a href="contact.html" class="nav-link px-3 text-secondary">Contact</a></li>
+            </ul>
+        </header>
+    </div>
+    <script src="js/navbar-scroll-effect.js"></script>
+
+    <img id="contact-page-bg-img" src="images/shoes-cropped.jpg">
+
+    <section>
+        <div class="container" id="contact-form-container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <!-- Wrapper container -->
+                    <div id="contact-form">
+                        <h2 id="contact-form-heading">Contact Us</h2>
+                        <form id="contactForm" action="https://formspree.io/f/mpzgbpvo" method="POST">
+                            <div class="mb-3">
+                                <label class="form-label" for="first-name">First Name</label>
+                                <input class="form-control" id="first-name" name="First Name" type="text" placeholder="Enter your first name"/>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="last-name">Last Name</label>
+                                <input class="form-control" id="last-name" name="Last Name" type="text" placeholder="Enter your last name"/>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="emailAddress">Email Address</label>
+                                <input class="form-control" id="email-address" name="Email" type="email" placeholder="Enter your email"/>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="message">Message</label>
+                                <textarea class="form-control" id="message" name="Message" type="text" placeholder="What are your thoughts?" style="height: 8rem;"></textarea>
+                            </div>
+                            <div class="d-grid">
+                                <button class="btn btn-outline-secondary" id="contact-form-submit-btn" type="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

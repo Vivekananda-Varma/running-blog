@@ -8,6 +8,7 @@
 }
 
 #hero-img {
+  margin-bottom: 10%;
   width: 100%; /* Ensure the image takes up the full width of the container */
   height: auto; /* Maintain aspect ratio */
 }
