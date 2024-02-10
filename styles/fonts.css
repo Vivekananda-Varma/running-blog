@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'charter-regular';
-    src: url("../fonts/charter/Charter\ Regular.otf");
+    src: url(../fonts/charter/Charter\ Regular.otf);
 }
 
 @font-face {
@@ -9,8 +9,13 @@
 }
 
 @font-face {
+    font-family: 'poppins-medium';
+    src: url(../fonts/poppins/Poppins-Medium.ttf)
+}
+
+@font-face {
     font-family: 'poppins-bold';
-    src: url('../fonts/poppins/Poppins-Bold.ttf');
+    src: url(../fonts/poppins/Poppins-Bold.ttf);
 }
 
 .header {
@@ -28,4 +33,8 @@ h1,h2,h3,h4 {
 
 #contact-form-container {
     font-family: 'poppins-light';
+}
+
+.btn-outline-secondary{
+    font-family: 'poppins-medium';
 }
