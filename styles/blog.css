@@ -22,6 +22,11 @@ h2 {
   font-size: 2.4rem;
 }
 
+.blog-img {
+  margin: 8% 0;
+  width: 100%;
+}
+
 #running-stat-slider {
   display: flex;
   align-items: center;
@@ -137,4 +142,85 @@ h2 {
 }
 #slider-span7:target ~ .image-slider {
   left: -48%;
+}
+
+
+
+
+
+
+
+
+
+/* CONTACT PAGE STYLES */
+#contact-page-bg-img {
+  position: absolute;
+  width: 75%;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+#contact-form-container {
+  display: flex !important;
+  align-items: center !important;
+  height: 100vh;
+}
+
+#contact-form {
+  position: relative;
+  margin-top: 60px;
+  margin-left: 12.5%;
+  padding: 2% 2%;
+  height: 80% !important;
+  width: 25% !important;
+  color: #fff;
+  background-color: #000000;
+  border-radius: 15px;
+}
+
+#contact-form-heading {
+  color: #fff;
+}
+
+#contact-description {
+  margin-bottom: 10%;
+  font-size: 0.9rem;
+}
+
+#name, #last-name, #email-address, #message {
+  background-color: rgb(22, 22, 22);
+  color: #ffffff;
+  font-size: 0.9rem;
+  border: none;
+}
+
+#name, #last-name, #email-address, #message:active {
+  scrollbar-highlight-color: #fff;
+}
+
+
+#name::placeholder,
+#last-name::placeholder,
+#email-address::placeholder,
+#message::placeholder {
+  color: rgb(86, 86, 86);
+}
+
+
+.btn-outline-secondary{
+  border: solid 2px #ffffff;
+  color: #fff;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #ffffff;
+  border: none;
+  color: #000000;
+}
+
+.btn-outline-secondary:active {
+  background-color: #ffffff;
+  border: none;
+  color: #000000;
 }
