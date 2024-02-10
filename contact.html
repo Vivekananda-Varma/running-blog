@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="styles/fonts.css">
 
     <style>
+        #hero-container {
+            display: flex;
+            align-items: center;
+            height: 100%;
+        }
+
         #contact-page-bg-img {
             position: absolute;
             height: 100%;
@@ -20,9 +26,10 @@
         #contact-form {
             position: relative;
             margin-top: 30%;
-            margin-left: 25%;
+            margin-left: 45%;
             padding: 8% 8%;
-            width: 100%;
+            height: 80% !important;
+            width: 100% !important;
             color: #fff;
             background-color: #000000;
             border-radius: 15px;
@@ -59,6 +66,7 @@
 
         .btn-outline-secondary{
             border: solid 2px #9f9f9f;
+            color: #fff;
         }
 
         .btn-outline-secondary:hover {
@@ -86,40 +94,42 @@
             </ul>
         </header>
     </div>
-    <script src="js/navbar-scroll-effect.js"></script>
 
-    <img id="contact-page-bg-img" src="images/shoes-on-pebbles-cropped.jpg">
+    <div id="hero-container">
+        <img id="contact-page-bg-img" src="images/shoes-on-pebbles-cropped.jpg">
 
-    <section>
-        <div class="container" id="contact-form-container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <!-- Wrapper container -->
-                    <div id="contact-form">
-                        <h2 id="contact-form-heading">Contact Us</h2>
-                        <p id="contact-description">Got questions, comments, or just want to say hi? Drop me a line below! I'd love to hear from you.</p>
-                        <form id="contactForm" action="https://formspree.io/f/mjvnydqp" method="POST">
-                            <div class="mb-3">
-                                <label class="form-label" for="name">Name</label>
-                                <input class="form-control" id="name" name="Name" type="text" placeholder="Enter your name"/>
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label" for="emailAddress">Email Address</label>
-                                <input class="form-control" id="email-address" name="Email" type="email" placeholder="Enter your email"/>
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label" for="message">Message</label>
-                                <textarea class="form-control" id="message" name="Message" type="text" placeholder="What are your thoughts?" style="height: 8rem;"></textarea>
-                            </div>
-                            <div class="d-grid">
-                                <button class="btn btn-outline-secondary" id="contact-form-submit-btn" type="submit">Submit</button>
-                            </div>
-                        </form>
+        <section>
+            <div class="container" id="contact-form-container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <!-- Wrapper container -->
+                        <div id="contact-form">
+                            <h2 id="contact-form-heading">Contact Us</h2>
+                            <p id="contact-description">Got questions, comments, or just want to say hi? Drop me a line below! I'd love to hear from you.</p>
+                            <form id="contactForm" action="https://formspree.io/f/mjvnydqp" method="POST">
+                                <div class="mb-3">
+                                    <label class="form-label" for="name">Name</label>
+                                    <input class="form-control" id="name" name="Name" type="text" placeholder="Enter your name"/>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="emailAddress">Email Address</label>
+                                    <input class="form-control" id="email-address" name="Email" type="email" placeholder="Enter your email"/>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="message">Message</label>
+                                    <textarea class="form-control" id="message" name="Message" type="text" placeholder="What are your thoughts?" style="height: 8rem;"></textarea>
+                                </div>
+                                <div class="d-grid">
+                                    <button class="btn btn-outline-secondary" id="contact-form-submit-btn" type="submit">Submit</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
+    
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
