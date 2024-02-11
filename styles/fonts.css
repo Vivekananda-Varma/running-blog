@@ -22,7 +22,7 @@
     font-family: 'poppins-light';
 }
 
-main {
+main, p {
     font-family: 'charter-regular';
 }
 
@@ -32,6 +32,10 @@ h1,h2,h3,h4 {
 }
 
 #contact-form {
+    font-family: 'poppins-light';
+}
+
+#contact-description {
     font-family: 'poppins-light';
 }
 
