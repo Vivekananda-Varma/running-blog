@@ -180,7 +180,7 @@ h4 {
     position: relative;
     margin-left: 12.5%;
     padding: 2% 2%;
-    height: 75% !important;
+    height: auto% !important;
     width: 25% !important;
     color: #fff;
     background-color: #000000;
