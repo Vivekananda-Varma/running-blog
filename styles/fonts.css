@@ -31,6 +31,10 @@ h1,h2,h3,h4 {
     font-family: 'poppins-bold';
 }
 
+.footer {
+    font-family: 'poppins-light';
+}
+
 #contact-form {
     font-family: 'poppins-light';
 }
