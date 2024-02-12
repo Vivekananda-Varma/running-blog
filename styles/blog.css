@@ -167,6 +167,41 @@ h4 {
     left: -48%;
 }
 
+.footer {
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    background-color: rgb(167, 167, 167) !important;
+}
+
+
+
+
+
+#temporary-heading {
+    margin-bottom: 1000px;
+}
+
+.newsletter-form {
+    margin-top: 10%;
+}
+
+
+.email-input-form {
+    width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* CONTACT PAGE STYLES */
 #contact-page-bg-img {
     position: absolute;
@@ -186,7 +221,7 @@ h4 {
     position: relative;
     margin-left: 12.5%;
     padding: 2% 2%;
-    height: auto% !important;
+    height: auto !important;
     width: 25% !important;
     color: #fff;
     background-color: #000000;
@@ -194,6 +229,7 @@ h4 {
 }
 
 #contact-form-heading {
+    margin-bottom: 0 !important;
     color: #fff;
 }
 
@@ -246,6 +282,7 @@ h4 {
     border: none;
     color: #000000;
 }
+
 
 
 
