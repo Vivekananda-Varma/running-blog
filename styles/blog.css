@@ -139,33 +139,7 @@ h4 {
     background-color: transparent;
 }
 
-#slider-span1:target~.image-slider {
-    left: 48%;
-}
 
-#slider-span2:target~.image-slider {
-    left: 32%;
-}
-
-#slider-span3:target~.image-slider {
-    left: 16%;
-}
-
-#slider-span4:target~.image-slider {
-    left: 0%;
-}
-
-#slider-span5:target~.image-slider {
-    left: -16%;
-}
-
-#slider-span6:target~.image-slider {
-    left: -32%;
-}
-
-#slider-span7:target~.image-slider {
-    left: -48%;
-}
 
 .footer {
     margin-top: 10%;
